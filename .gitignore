@@ -1,0 +1,13 @@
+__pycache__/
+*.pyc
+.pytest_cache/
+.venv/
+venv/
+*.egg-info/
+.env
+.idea/
+.vscode/
+node_modules/
+.next/
+*.exe
+*.out

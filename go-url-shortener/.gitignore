@@ -1,0 +1,15 @@
+# binaries
+*.exe
+*.test
+*.out
+/bin/
+/dist/
+# go
+vendor/
+# env / data
+.env
+*.db
+/data/
+# editor
+.idea/
+.vscode/
