@@ -2,6 +2,8 @@
 
 # go-backend-lab
 
+[![CI](https://github.com/nidhalom/go-backend-lab/actions/workflows/ci.yml/badge.svg)](https://github.com/nidhalom/go-backend-lab/actions/workflows/ci.yml)
+
 Small Go backend services and libraries, standard library first. Each folder is its own Go module.
 
 ## Projects
@@ -20,6 +22,8 @@ go vet ./...
 go test -race ./...
 go run ./cmd/shortener     # see each README for the entry point and flags
 ```
+
+CI runs `go vet` and `go test -race` per module in a matrix job.
 
 ## Why a lab
 
