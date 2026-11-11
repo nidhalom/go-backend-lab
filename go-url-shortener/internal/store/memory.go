@@ -9,7 +9,7 @@ import (
 	"sync"
 	"time"
 
-	"github.com/nidhalom/go-url-shortener/internal/base62"
+	"github.com/nidhalom/go-backend-lab/go-url-shortener/internal/base62"
 )
 
 // idOffset keeps generated IDs at least four characters long.

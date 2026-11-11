@@ -9,8 +9,8 @@ import (
 	"testing"
 	"time"
 
-	"github.com/nidhalom/go-url-shortener/internal/ratelimit"
-	"github.com/nidhalom/go-url-shortener/internal/store"
+	"github.com/nidhalom/go-backend-lab/go-url-shortener/internal/ratelimit"
+	"github.com/nidhalom/go-backend-lab/go-url-shortener/internal/store"
 )
 
 func newTestServer(t *testing.T, cfg Config) *httptest.Server {

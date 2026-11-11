@@ -25,6 +25,8 @@ go run ./cmd/shortener     # see each README for the entry point and flags
 
 CI runs `go vet` and `go test -race` per module in a matrix job.
 
+The module path of each project is `github.com/nidhalom/go-backend-lab/<project>`.
+
 ## Why a lab
 
 These services share the same approach: use the standard library where possible, put storage behind an interface, and test with fake clocks and `httptest` instead of mocks of the world. One repository makes them easy to compare.
