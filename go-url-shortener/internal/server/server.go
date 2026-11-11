@@ -12,8 +12,8 @@ import (
 	"strings"
 	"time"
 
-	"github.com/nidhalom/go-url-shortener/internal/ratelimit"
-	"github.com/nidhalom/go-url-shortener/internal/store"
+	"github.com/nidhalom/go-backend-lab/go-url-shortener/internal/ratelimit"
+	"github.com/nidhalom/go-backend-lab/go-url-shortener/internal/store"
 )
 
 const maxURLLen = 2048
